@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Title here</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script type="text/javascript">
+<!-- // commence script hiding
+function addOne()
+{
+	quantity.value++;
+	total = quantity * 99.00;
+	document.getElementByID("total").innerHTML = total;
+	
+}
+function minusOne()
+{
+	quantity.value--;
+}
+
+function check()
+{
+	var x=document.forms["myForm"]["quantity"].value;
+	if (quantity.value <= 0){
+		alert("No Quantity Selected");
+		return false;
+    }
+    else 
+		quantity = quantity.value;
+		productcode = productcode.value;
+		return true;
+}
+// end script hiding-->
+</script>
+</head>
+
+<body>
+
+<div id="wrapper">
+	<div id="wrapperhead">
+
+		<div id="wrapperheadleft"> Welcome to Deezy. Inc. Clothing.        
+		</div>
+			<div id="wrapperheadright"><input type="text" name="searchbar" value="Search Site">
+			<input type="submit" value="Go">
+
+			</div>
+
+	</div><!-- END OF WRAPPEHEAD DIV -->
+
+	<div id="header">
+
+
+		<div id="logo"><img src="logo.gif" alt=""></div>
+
+
+	</div>
+	<div id="topbar">
+
+		<div class="menu"><a class="topbarlinks" href="index.html">Home</a></div>
+		<div class="menu"><a class="topbarlinks" href="">Log In</a></div>
+		<div class="menu"><a class="topbarlinks" href="">Mens</a></div>
+		<div class="menu"><a class="topbarlinks" href="">Womens</a></div>
+
+	</div>
+
+	<div id="sidemenu"><br>
+		<div id="sidemenuheader"><b>Products by brand</b>
+		</div><br>
+
+			<div class="leftmenu"><a class="sidemenulinks" href="">Mossimo</a></div>
+			<div class="leftmenu"><a class="sidemenulinks" href="">Nike</a></div>
+			<div class="leftmenu"><a class="sidemenulinks" href="">G-Star</a></div>
+			<div class="leftmenu"><a class="sidemenulinks" href="">Lacoste</a></div>
+			<div class="leftmenu"><a class="sidemenulinks" href="">Stussy</a></div>
+			<div class="leftmenu"><a class="sidemenulinks" href="">Lee</a></div>
+			<div class="leftmenu"><a class="sidemenulinks" href="">St. Goliath</a></div>
+			<br><br><br>
+
+			<div class="leftmenu"><a class="sidemenulinks" href="products.html">ALL PRODUCTS</a></div>
+			<br><br><br>
+
+
+
+
+
+	</div><!--End of sidemenu -->
+
+	<div id="main"><!-- Main contents -->
+
+
+		<div id="insideheader">Mens
+		</div>
+		<hr>
+		
+		
+
+		
+
+
+	<!-- Original images below sourced for educational purposes: http://images.asos-media.com/inv/media/9/3/1/3/3803139/blackiris/image1xl.jpg,
+	http://images.asos-media.com/inv/media/9/3/1/3/3803139/image2s.jpg, http://images.asos-media.com/inv/media/9/3/1/3/3803139/image3s.jpg,
+	http://images.asos-media.com/inv/media/9/3/1/3/3803139/image4s.jpg   -->
+	<div id="singleprodtable">
+		<table style="auto">
+			<tr>
+			  <td><div id="largepic"><img src="Images/image1main.jpg" alt="Main Pic"></div></td>
+			  </tr>
+			<tr>
+			  <td><div class="thumbpicmain"><img src="Images/thumb1.jpg" alt="thumb1"></div>
+					<div class="thumbpicmain"><img src="Images/thumb2.jpg" alt="thumb2"></div>
+					<div class="thumbpicmain"><img src="Images/thumb3.jpg" alt="thumb3"></div></td>
+			</tr>
+
+		</table>
+	</div><!-- main table -->
+
+	<div id="prodinfo">
+		<div id="prodinfohead">Wrangler Shirt Slim Fit Horse Print</div>
+
+	
+	<hr>
+
+		<div class="info">
+
+
+			<ul>
+			<li>Made from 100% pure cotton</li>
+			<li>Point collar</li>
+			<li>Patch pocket</li>
+			<li>Button placket</li>
+			<li>Regular fit</li>
+			</ul>
+
+			<br>
+
+			<em>ABOUT WRANGLER</em><br>
+			Wrangler was designed by the Blue Bell Overall Company in 1947 that tested 13 pairs of prototype jeans and 
+			introduced the Wrangler 13MWZ to American consumers. Originally a cowboy jean Wrangler grew to 
+			be one of the defining American denim brands. Today Wrangler utilise their rich history to create 
+			authentic jeans and clothing collections that call upon Wrangler's all-American spirit.
+
+
+
+		</div>
+
+
+	</div>
+
+
+	<div id="prodinfobottom"> 
+		<div id="prodinfoheadprice"><b>$99.03</b></div>
+		<div class="info">In Stock:<br>
+		Normally delivered within 2-5 business days
+		
+		
+		
+		
+		
+		<p>Select Size:
+		<select>
+			<option>xsmall</option>
+			<option>small</option>
+			<option selected>medium</option>
+			<option>large</option>
+			<option>xlarge</option>
+		</select>
+		</p>
+		
+		
+		<form name="myForm" onsubmit="return check()" method="post">
+			<input type="hidden" id="productcode" value="p1"/>
+			<input type="button" value="-" onclick="minusOne()"/>
+			<input type="text" id="quantity" value="1"/>
+			<input type="button" value="+" onclick="addOne()"/>
+			<input type="submit" value="Buy"/><span id="total"></span>
+			
+		</form>
+		<span id="totalPrice"></span>
+		</div>
+
+	</div>
+	
+	
+
+		<br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br>
+		<br><br>
+
+</div> <!--End of main div -->
+
+	<div id="footer">
+		<div id="footercontent">©Copyright Deezy.Inc. 2014. | <a class="footlinks" href="http://validator.w3.org">W3C code validator</a>| <a class="footlinks" href="privacy.html">Privacy Policy</a></div>
+		</div>
+
+</div><!-- END OF WRAPPER DIV -->
+
+</body>
+
+</html>

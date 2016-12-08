@@ -1,0 +1,342 @@
+a.topbarlinks:link {color:black; text-decoration:none;}
+a.topbarlinks:visited {color:black; text-decoration:none;}
+a.topbarlinks:hover {color:white; background-color:black;}
+a.topbarlinks:active {color:white; background-color:black;}
+
+a.footlinks:link {color:white; text-decoration:none;}
+a.footlinks:visited {color:white; text-decoration:none;}
+a.footlinks:hover {color:white; text-decoration:underline;}
+a.footlinks:active {color:white; text-decoration:underline;}
+
+a.sidemenulinks:link {color: black; text-decoration:none;}
+a.sidemenulinks:visited {color: black; text-decoration:none;}
+a.sidemenulinks:hover {color:red; text-decoration:underline;}
+a.sidemenulinks:active {color:red; text-decoration:underline;}
+
+#wrapper {
+	width: 1100px;
+	margin: 0 auto;
+	background-color: white;
+
+}	
+
+
+#wrapperhead {
+	top: 0px;
+	position: fixed;
+	z-index: 100;
+	background-color: #363B3B;
+	height: 30px;
+	width: 1100px;
+	color: white;	
+
+}	
+
+
+
+#wrapperheadleft{
+    
+	float: left;
+	color: white;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	margin: 5px 10px 0px 10px;
+}
+
+#wrapperheadright {
+	float: right;
+	color: white;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	margin: 3px 10px 5px auto;
+}
+
+#header {
+	background-color: white;
+	padding: 0px;
+	height: 100px;
+
+}	
+
+
+#logo {
+	float: left;
+	margin: 20px auto auto 20px;
+
+
+}
+
+#topbar {
+	background-color: white; 
+	padding: 9px 0px 0px 20px;
+	height: 30px;
+	color: black;
+	border-style: solid;
+	border-color: #F5F5F5;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+
+#wrapper {
+	width: 1100px;
+	margin: 30px auto;
+	background-color: white;
+}	
+
+#sidemenu {
+	float: left;
+	width: 150px;
+
+	margin: 0px 0px 0 0 ;
+	padding: 0px 0px 5px 10px;
+	background-color: #EAECEC;	
+	border-style: solid;
+	border-color: #F5F5F5;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	font-family: "Andale Mono WT", "Andale Mono", "Lucida Console", "Liberation Mono", "Courier New", Courier, monospace;
+}
+
+
+
+#maintable {
+		background-color:white;
+		margin: auto;
+}
+
+#tablecenter {
+		margin: 0px 0px 0px 240px;
+}
+
+#tablenew {
+		margin: 0px 0px 0px 100px;
+}
+
+#main {
+	float: left;
+	position: relative;
+	width: 680px;
+	margin: 0 0px;
+	padding: 0em 2em 0em 2em;
+	border-style: solid;
+	border-color: #F5F5F5;
+	border-top-width: 0px;
+	background: white;
+}
+
+
+
+#insideheader {
+
+
+	margin: 1em 40% 10px 40%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: medium;
+	color: red;
+}
+
+#homeimages {
+	position: absolute;
+	left: 85px;
+}
+
+
+
+#singleprodtable {
+	float: left;
+	width: 310px;
+	background-color: white;
+		
+}
+
+#prodinfo {
+	background-color: white;
+	margin: 3px 0px 0px 0px;
+	width: 365px;
+	height: 367px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+	float: right;	
+}
+#prodinfohead {
+	margin: 5px auto 10px 5px;
+	background-color: white;
+	width: auto;
+	font-weight: bold;
+	padding: 10px 0px 20px 5px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	
+
+}
+
+#prodinfoheadprice {
+	float: right;
+	margin: 5px 5px 0px 0px;
+	font-family: "Avant Garde", Avantgarde, "AppleGothic", sans-serif;
+	font-size: 22px;
+
+}
+
+#prodinfobottom  {
+	height: 113px;
+	margin-top: 10px;
+	width: 365px;
+	float: right;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+}
+
+#footer {
+	clear: left;
+	padding: 10px;
+	height: 30px;
+	background: #363B3B;
+	color: white;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	}
+
+#footercontent {
+	margin: 0 auto;
+	position: relative;
+	font-size: small;
+	left: 38%;
+}	
+
+#maininfo {
+
+	padding: 0px 3px 0px 5px;
+	background-color: white;
+	font-size: 16px;
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+
+}
+
+#maininfo2 {
+
+	padding: 5px 3px 5px 5px;
+	background-color: grey;
+	font-size: 16px;
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+
+}
+
+
+#carttable {
+   background-color: blue;
+   border:1px solid black;
+}
+
+.menu {
+   float: left;
+   padding: 0px 12px 0px 8px;
+   margin: 0px 10px 0px 10px;
+   color : black;
+   background-color: white;
+   font-family: "Andale Mono WT", "Andale Mono", "Lucida Console", "Liberation Mono", "Courier New", Courier, monospace;
+
+}
+
+
+table.tableclass tr {
+ 
+ background-color: #EAEAEA;
+ 
+
+}
+
+.leftmenu {
+	padding: 0px 0px 0px 0px;
+	font-size: 15px;
+}
+
+.leftmenu a:hover {
+	text-decoration:underline;
+	color: white;
+}
+.leftmenu a:visited {
+	text-decoration:underline;
+	color: black;
+}
+
+.sidelogos {
+
+	float: left;
+	margin-top: 20px;
+	left: 10px;
+	top: 10px;
+
+}
+.centretext {
+    margin: 0px 0px 0px 250px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: medium;
+}
+
+table  {
+	float: left;
+	margin: 0px 0px;
+}
+
+.thumbpic {
+	margin: 35px 0px 0px 2px;
+}
+
+.thumbpicmain {
+	float: left;
+	margin: 0px 0px 0px 5px;
+
+}
+
+
+
+
+
+p.headers {
+	padding: 0px 3px 0px 5px;
+	text-decoration: underline;
+	font-size: 15px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+.info {
+	width: 350px;
+
+	padding: 0px 3px 0px 5px;
+	background-color: white;
+	font-size: 11px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+}
+
+p {
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+.homepic {
+	float: left;
+	margin: 0 5px 0px 5px;
+	
+}
+
+
+.proddescription {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 13px;
+}
+
+
+.prodprice {
+	font-size: 15px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	border-color: grey;
+	margin: 0px 0px 5px 0px;
+}
+	
+body {
+	background-color: #F5F5F5;
+}

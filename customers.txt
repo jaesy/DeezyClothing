@@ -1,0 +1,4 @@
+FirstName	LastName	Email	PasswordRAW	PasswordMD5	Phone	Discount-PS1	Discount-PS2	Discount-PS3
+Alice	Lewis	alice@wonderland.com	whi73r4bbit	d40a4744234fcdc8dc68baec99fe8d09	+619 8765 4321	3.0	4.0	9.0
+Bob	Builder	bob@thebuilder.com	canwebuildit	0e37f5f99c350b635b277351b358bb87	+44 161 941 2626	1.0	2.0	3.0
+Carol	Singer	carol@singers.com	harktheherald	8d5a154a74327e0a398b7cdebd11e738	(08) 1234 5678	6.0	5.0	4.0
